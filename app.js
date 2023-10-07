@@ -4,7 +4,7 @@
 var quiz = { "JS" : [
 	{
 		"id" : 1,
-		"question" : "Inside which HTML element do we put the JavaScript?",
+		"question" : "Dentro de qual elemento HTML colocamos o JavaScript?",
 		"options" : [
 			{"a": "&lt;script&gt;", 
 			 "b":"&lt;javascript&gt;", 
@@ -17,19 +17,19 @@ var quiz = { "JS" : [
 	},
 	{
 		"id" : 2,
-		"question" : "Where is the correct place to insert a JavaScript?",
+		"question" : "Onde é o local correto para inserir um JavaScript?",
 		"options" : [
-			{"a": "The &lt;head&gt; section", 
-			 "b":"The &lt;body&gt; section", 
-			 "c":"Both the &lt;head&gt; section and the &lt;body&gt; section are correct"}
+			{"a": "O &lt;head&gt; section", 
+			 "b":"O &lt;body&gt; section", 
+			 "c":"Ambos, no &lt;head&gt; section e no &lt;body&gt; section é correto"}
 			],
-		"answer":"Both the &lt;head&gt; section and the &lt;body&gt; section are correct",
+		"answer":"Ambos, no &lt;head&gt; section e no &lt;body&gt; section é correto",
 		"score":0,
 		"status": ""
 	},
 	{
 		"id" : 3,
-		"question" : "What is the correct syntax for referring to an external script called 'xxx.js'?",
+		"question" : "Qual é a sintaxe correta para se referir a um script externo chamado 'xxx.js'?",
 		"options" : [
 			{"a": "&ltscript href=&quot;xxx.js&quot;>", 
 			 "b":"&lt;script name=&quot;xxx.js&quot;&gt;", 
@@ -41,13 +41,13 @@ var quiz = { "JS" : [
 	},
 	{
 		"id" : 4,
-		"question" : "The external JavaScript file must contain the &lt;script&gt; tag.",
+		"question" : "O arquivo JavaScript externo deve conter a tag &lt;script&gt;",
 		"options" : [
-			{"a": "True", 
-			 "b":"False"
+			{"a": "Verdadeiro", 
+			 "b":"Falso"
 			}
 			],
-		"answer":"False",
+		"answer":"Falso",
 		"score":0,
 		"status": ""
 	},
